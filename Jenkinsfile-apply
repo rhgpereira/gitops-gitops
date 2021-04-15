@@ -23,7 +23,7 @@ pipeline {
               }
               steps {
                       sh 'oc apply -k config'
-                      sh './wait_oauth.sh''
+                      sh './wait_oauth.sh'
               }
       }
     }
